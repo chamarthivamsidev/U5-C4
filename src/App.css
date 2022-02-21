@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+
+.search-box {
+  border-radius: 10px;
+  width: 70%;
+  height: 30px;
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 5px;
+}
+.google_div {
+  width: 60%;
+  margin: auto;
+  margin-top: 160px;
+}
+#navbar {
+  margin: 0;
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+#navbar img {
+  width: 150px;
+  height: 50px;
+  margin-right: 10px;
+}
+#navbar input {
+  width: 450px;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+.search {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.filter_buttons {
+  margin: 0;
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.filter_buttons button {
+  cursor: pointer;
+}
